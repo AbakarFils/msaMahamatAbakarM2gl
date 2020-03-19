@@ -1,11 +1,16 @@
 package com.commerce.microcommerce.model;
 
+import javax.persistence.*;
 /**
  * Classe: M2GL
  * Ecole: ISI
  * Prenom :Mahamat Abakar
  */
+
+@Entity
 public class Product {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nom;
     private int prix;
