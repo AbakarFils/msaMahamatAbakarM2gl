@@ -6,6 +6,11 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Classe: M2GL
+ * Ecole: ISI
+ * Prenom :Mahamat Abakar
+ */
 @Repository
 public class ProductDaoImpl implements ProductDao {
     public static List<Product> products = new ArrayList<>();
